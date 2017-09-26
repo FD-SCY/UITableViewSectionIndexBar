@@ -13,6 +13,10 @@
 		BFADA91B1F56A00E003A07B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFADA9191F56A00E003A07B4 /* Main.storyboard */; };
 		BFADA91D1F56A00E003A07B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFADA91C1F56A00E003A07B4 /* Assets.xcassets */; };
 		BFADA9201F56A00E003A07B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFADA91E1F56A00E003A07B4 /* LaunchScreen.storyboard */; };
+		BFADA9291F56A03D003A07B4 /* APPThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFADA9281F56A03D003A07B4 /* APPThemeManager.m */; };
+		BFE188FC1F58E81E00D6B7DB /* TableViewSectionIndexBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE188FB1F58E81E00D6B7DB /* TableViewSectionIndexBar.m */; };
+		BFEE37671F57E78F00E27D24 /* SectionIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE37661F57E78F00E27D24 /* SectionIndexTableViewController.m */; };
+		BFEE37691F57F27900E27D24 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = BFEE37681F57F27900E27D24 /* demo.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		BFADA91C1F56A00E003A07B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFADA91F1F56A00E003A07B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFADA9211F56A00E003A07B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFADA9271F56A03D003A07B4 /* APPThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPThemeManager.h; sourceTree = "<group>"; };
+		BFADA9281F56A03D003A07B4 /* APPThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPThemeManager.m; sourceTree = "<group>"; };
+		BFE188FA1F58E81E00D6B7DB /* TableViewSectionIndexBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSectionIndexBar.h; sourceTree = "<group>"; };
+		BFE188FB1F58E81E00D6B7DB /* TableViewSectionIndexBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewSectionIndexBar.m; sourceTree = "<group>"; };
+		BFEE37651F57E78F00E27D24 /* SectionIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexTableViewController.h; sourceTree = "<group>"; };
+		BFEE37661F57E78F00E27D24 /* SectionIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexTableViewController.m; sourceTree = "<group>"; };
+		BFEE37681F57F27900E27D24 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +69,17 @@
 		BFADA90F1F56A00E003A07B4 /* APPThemeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BFADA9271F56A03D003A07B4 /* APPThemeManager.h */,
+				BFADA9281F56A03D003A07B4 /* APPThemeManager.m */,
 				BFADA9131F56A00E003A07B4 /* AppDelegate.h */,
 				BFADA9141F56A00E003A07B4 /* AppDelegate.m */,
 				BFADA9161F56A00E003A07B4 /* ViewController.h */,
 				BFADA9171F56A00E003A07B4 /* ViewController.m */,
+				BFEE37681F57F27900E27D24 /* demo.html */,
+				BFEE37651F57E78F00E27D24 /* SectionIndexTableViewController.h */,
+				BFEE37661F57E78F00E27D24 /* SectionIndexTableViewController.m */,
+				BFE188FA1F58E81E00D6B7DB /* TableViewSectionIndexBar.h */,
+				BFE188FB1F58E81E00D6B7DB /* TableViewSectionIndexBar.m */,
 				BFADA9191F56A00E003A07B4 /* Main.storyboard */,
 				BFADA91C1F56A00E003A07B4 /* Assets.xcassets */,
 				BFADA91E1F56A00E003A07B4 /* LaunchScreen.storyboard */,
@@ -139,6 +157,7 @@
 			files = (
 				BFADA9201F56A00E003A07B4 /* LaunchScreen.storyboard in Resources */,
 				BFADA91D1F56A00E003A07B4 /* Assets.xcassets in Resources */,
+				BFEE37691F57F27900E27D24 /* demo.html in Resources */,
 				BFADA91B1F56A00E003A07B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +172,9 @@
 				BFADA9181F56A00E003A07B4 /* ViewController.m in Sources */,
 				BFADA9151F56A00E003A07B4 /* AppDelegate.m in Sources */,
 				BFADA9121F56A00E003A07B4 /* main.m in Sources */,
+				BFE188FC1F58E81E00D6B7DB /* TableViewSectionIndexBar.m in Sources */,
+				BFEE37671F57E78F00E27D24 /* SectionIndexTableViewController.m in Sources */,
+				BFADA9291F56A03D003A07B4 /* APPThemeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +331,7 @@
 				BFADA9261F56A00E003A07B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
